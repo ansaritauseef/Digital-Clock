@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(parashut.jpg);
+    background-size: cover;
+}
+
+#clock {    
+    display: flex;
+    gap: 40px;
+    color:ghostwhite;
+
+}
+
+#clock.time {
+    display: flex;
+    height: 150px;
+    width: 150px;
+}
+#clock div{
+    text-align: center;
+    font-weight: 400;
+    font-size :2em;
+}
+#clock span{
+    font-size: 0.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
